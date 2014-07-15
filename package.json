@@ -28,6 +28,10 @@
     "passport-oauth": "0.1.x"
   },
   "devDependencies": {
+    "mocha": "1.20.1",
+    "should": "4.0.4",
+    "express": "~4.5.1",
+    "body-parser": "1.4.3"
   },
   "scripts": {
     "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
