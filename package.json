@@ -1,0 +1,35 @@
+{
+  "name": "passport-misfit",
+  "version": "0.0.1",
+  "description": "Misfit authentication strategy for Passport.",
+  "license": "BSD-3-Clause",
+  "contributors": [
+    {
+      "name": "Marzell Camenzind",
+      "url": "http://github.com/mcamenzind",
+      "email": "marzell.camenzind@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pryv/passport-misfit.git"
+  },
+  "keywords": [
+    "node",
+    "passport",
+    "misfit"
+  ],
+  "bugs": {
+    "url": "https://github.com/pryv/passport-misfit/issues"
+  },
+  "main": "./lib/passport-misfit",
+  "dependencies": {
+    "pkginfo": "0.2.x",
+    "passport-oauth": "0.1.x"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "NODE_PATH=lib node_modules/.bin/vows test/*-test.js"
+  }
+}
